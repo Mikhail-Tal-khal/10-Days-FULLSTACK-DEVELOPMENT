@@ -18,13 +18,13 @@
     <p>
       Sometimes I like to <span>highlight only this part</span> of a sentence.
     </p>
-        <!-- <p>: a paragraph of text.
+    <!-- <p>: a paragraph of text.
         <span>: a small piece of text inside a line (used when we want to style just part of the text).
         <strong>: bold text – like saying something loudly.
         <em>: italic text – like stressing or emphasizing a word. -->
 
     <img src="./assets/download.jpg" alt="Downloaded Image" />
-    <video controls width="300"> 
+    <video controls width="300">
       <source src="" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -43,14 +43,43 @@
     </ol>
     <p>chose your favorite Web Language</p>
     <form>
-      <input type="radio" name="fav-language" id="html" value="HTML">
-      <label for="html">HTML</label><br>
-      <input type="radio" name="fav-language" id="css" value="CSS">
-      <label for="css">CSS</label><br>
-      <input type="radio" name="fav-language" id="js" value="JavaScript">
+      <input type="radio" name="fav-language" id="html" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" name="fav-language" id="css" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input type="radio" name="fav-language" id="js" value="JavaScript" />
       <label for="js">JavaScript</label>
-
-      
+      <br />
+      <div>
+        <label for="fname">first name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Spongebob" />
+      </div>
+      <br />
+      <div>
+        <label for="lname">last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="SquareRoote" />
+      </div>
+      <br />
+      <div>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" maxlength="12"/>
+      </div>
+      <br>
+      <div>
+        <label for="payment">payment:</label>
+        <select name="payment" id="payment">
+          <option value="credit-card">Credit Card</option>
+          <option value="debit-card">Debit Card</option>
+          <option value="paypal">Paypal</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" value="submit" />  
+      </div>
+      <br />
+      <div>
+        <input type="reset" value="reset" />
+      </div>
     </form>
   </body>
 </html>
