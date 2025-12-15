@@ -11,3 +11,12 @@ age = 11;            // OK
 // let → box that we can change.
 
 // const → box that we don’t want to change.
+
+let animals = ["cat", "dog", "bird"];
+
+for (let animal of animals) {
+  console.log("Animal:", animal);
+}
+// animals = ["lion", "tiger"]; // OK
+animals.push("lion"); // OK
+console.log(animals);
